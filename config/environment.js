@@ -12,7 +12,13 @@ module.exports = function(environment) {
         // e.g. 'with-controller': true
       }
     },
-
+    firebase: {
+              apiKey: "AIzaSyDwss420QkRRBLtxPALLCEG7D_BjlE_20o",
+              authDomain: "ember-blog-urbina.firebaseapp.com",
+              databaseURL: "https://ember-blog-urbina.firebaseio.com",
+              storageBucket: "ember-blog-urbina.appspot.com",
+              messagingSenderId: "947756574849"
+    },
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created
